@@ -13,9 +13,13 @@ def order(values: list = None) -> list:
 def anagrams(words: list = None) -> bool:
     if words is None:
         # TODO: demander les mots ici
-        pass
+        mota: imput("entrer un mot: ")
+        motb: imput("entrer un deuxieme mot: ")
+        if car in mota == cara in motb:
+            return True
+            
 
-    return False
+ 
 
 
 def contains_doubles(items: list) -> bool:
